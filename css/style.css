@@ -1,0 +1,545 @@
+@charset "utf-8";
+/* CSS Document */
+* { margin: 0; padding: 0; border: 0; }
+li { list-style: none; }
+a { text-decoration: none; }
+img { vertical-align: top; }
+body {
+	width: 100%;
+	background: no-repeat url(../img/bg.png);
+}
+div.wrap {
+	width: 964px;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+/* --------- upperHeader --------- */
+div#upperHeader {
+	min-width: 100%; height: 32px;
+	background: #2a2b2c;
+	border-top: 3px solid #cc3333;
+}
+
+	/* ---- linkSite ---- */
+div#upperHeader div.wrap div#linkSite ul li {
+	float: left;
+	margin-top: 4px;
+	margin-left: 1px;	
+}
+div#upperHeader div.wrap div#linkSite ul li:nth-child(2),
+div#upperHeader div.wrap div#linkSite ul li:nth-child(4) {
+	margin-left: 5px;
+}
+div#upperHeader div.wrap div#linkSite ul li:nth-child(3),
+div#upperHeader div.wrap div#linkSite ul li:nth-child(5) {
+	margin-left: 4px;
+}
+
+	/* ---- lnb ---- */
+div#upperHeader div.wrap div#lnb {
+	float: left;
+	margin-top: 9px;
+	margin-left: 606px;	
+}
+div#upperHeader div.wrap div#lnb ul li {
+	float: left;	
+}
+div#upperHeader div.wrap div#lnb ul li:nth-child(2) {
+	margin-left: 2px;
+	margin-right: 1px;	
+}
+
+	/* ---- box ---- */
+div#upperHeader div.wrap div#box {
+	width: 100px; height: 46px;
+	float: right;
+	margin-right: 2px;
+	background: #cc3333;
+	border-radius: 0 0 10px 10px;
+}
+div#upperHeader div.wrap div#box ul li {
+	float: left;
+}
+div#upperHeader div.wrap div#box ul li.cart-icon {
+	margin-top: 5px;
+	margin-left: 9px;	
+}
+div#upperHeader div.wrap div#box ul li.cart-text {
+	margin-top: 15px;
+	margin-left: 4px;	
+}
+
+/* --------- middleHeader --------- */
+div#middleHeader {
+	width: 100%;  height: 98px;
+}
+div#middleHeader div.wrap div#logo {
+	float: left;
+	margin-top: 18px;	
+	margin-left: 1px;
+}
+div#middleHeader div.wrap div#menu {
+	position: absolute;
+	top: 20px; right: 1px;
+}
+div#middleHeader div.wrap div#menu ul li {
+	float: left;
+	height: 37px;
+	margin-left: 32px;
+}
+div#middleHeader div.wrap div#menu ul li:nth-child(5) {
+	margin-left: 31px;
+}
+div#middleHeader div.wrap div#menu ul li a img {
+	margin-top: 25px;	
+}
+div#middleHeader div.wrap div#menu ul li:hover {
+	background: no-repeat url(../img/menu-hover.png);
+	background-position: right 0;	
+}
+
+/* --------- lowerHeader --------- */
+div#lowerHeader {
+	width: 100%;  height: 100px;
+	background: #fff;
+	box-shadow: 0 1px 2px 0px gray;
+}
+div#lowerHeader div#channel {
+	width: 100%; height: 90px;
+	background: #cd3737;
+	box-shadow: 0px 8px 4px -4px #9b2a2a inset;
+}
+div#lowerHeader div#channel div.wrap div.title {
+	float: left;
+	margin-top: 24px;
+	margin-left: 2px;	
+}
+div#lowerHeader div#channel div.wrap div.route {
+	clear: both;
+	float: left;
+	margin-top: 6px;	
+}
+div#lowerHeader div#channel div.wrap div.route a {
+	margin: 0 3px;	
+}
+div#lowerHeader div#channel div.wrap div.route a:nth-of-type(2) {
+	margin-left: 2px;	
+}
+div#lowerHeader div#channel div.wrap div.route > img {
+	margin-top: 4px;
+}
+div#lowerHeader div#channel div.wrap div.home-icon {
+	position: absolute;
+	top: 29px; right: 1px;
+}
+
+
+/* --------- shopMenu --------- */
+div#shopMenu {
+	width: 	956px; height: 61px;
+	margin-top: 41px;
+	margin-left: 5px;
+	background: #fff;
+	box-shadow: 0 0 1px 1px #e0e0e0;
+}
+
+	/* ---- s_Menu ---- */
+div#shopMenu div.s_Menu {
+	float: left;
+	margin-top: 25px;
+	margin-left: 18px;
+}
+div#shopMenu div.s_Menu ul li {
+	float: left;	
+}
+div#shopMenu div.s_Menu ul li:nth-child(even) {
+	margin-top: 3px;
+}
+div#shopMenu div.s_Menu ul li:nth-child(2) {
+	margin-left: 8px;
+	margin-right: 10px;	
+}
+div#shopMenu div.s_Menu ul li:nth-child(4) {
+	margin-left: 6px;
+	margin-right: 8px;	
+}
+div#shopMenu div.s_Menu ul li:nth-child(6) {
+	margin-left: 9px;
+	margin-right: 9px;	
+}
+div#shopMenu div.s_Menu ul li:nth-child(8) {
+	margin-left: 8px;
+	margin-right: 10px;	
+}
+div#shopMenu div.s_Menu ul li:nth-child(10) {
+	margin-left: 7px;
+	margin-right: 7px;	
+}
+
+	/* ---- sort ---- */
+div#shopMenu div#sort {
+	float: left;
+	margin-top: 18px;
+	margin-left: 219px;
+}
+div#shopMenu div#sort > img {
+	float: left;
+	margin-top: 5px;
+}
+div#shopMenu div#sort div#sort_Detail {
+	float: left;
+	width: 107px; height: 23px;
+	background: no-repeat url(../img/dawn-icon.png);
+	background-position: 88px 7px;
+	border: 1px solid #eaeaea;
+	margin-left: 13px;
+	cursor: pointer;
+}
+div#shopMenu div#sort div#sort_Detail img {
+	margin-top: 5px;
+	margin-left: 5px;	
+}
+
+	/* ---- view ---- */
+div#shopMenu div#view {
+	float: left;
+	margin-top: 21px;
+	margin-left: 84px;
+}
+div#shopMenu div#view ul li {
+	float: left;
+	cursor: pointer;	
+}
+div#shopMenu div#view ul li:nth-child(2) {
+	margin-left: 14px;
+}
+
+/* --------- shop --------- */
+div#shop {
+	width: 958px; height: 812px;
+	margin-top:41px;
+	margin-left: 4px;
+}
+
+	/* ---- shop_Box ---- */
+div#shop div.shop_Box {
+	float: left;
+	width: 230px; height: 399px;
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0 1px 1px 0 #d0d0d0;
+	position: relative;
+}
+div#shop div.shop_Box {
+	margin-right: 13px;
+	margin-bottom: 14px;
+}
+div#shop div.shop_Box:nth-child(2) {
+	margin-right: 12px;
+}
+div#shop div.shop_Box:nth-child(4) {
+	margin-right: 0;
+}
+div#shop div.shop_Box:nth-child(5) {
+	margin-bottom: 0;
+}
+div#shop div.shop_Box:nth-child(6) {
+	margin-right: 12px;
+	margin-bottom: 0;
+}
+div#shop div.shop_Box:nth-child(7) {
+	margin-bottom: 0;
+}
+div#shop div.shop_Box:nth-child(8) {
+	margin-right: 0;
+	margin-bottom: 0;
+}
+		/* ---- shop_Box_Image ---- */
+div#shop div.shop_Box div.title_Image {
+	float: left;
+	width: 230px; height: 230px;
+}
+div#shop div.shop_Box div.title_Image img {
+	border: 1px solid #0a0a0a;
+	border-radius: 10px;	
+}
+div#shop div.shop_Box div.title_Image img:nth-child(2) {
+	border: 0;
+	position: absolute;
+	top: 9px; left: 9px;	
+}
+div#shop div.shop_Box:nth-child(5) div.title_Image img:nth-child(2) {
+	left: 10px;	
+}
+
+		/* ---- shop_Box_Contents ---- */
+div#shop div.shop_Box div.title_contents {
+	clear: both;
+	float: left;
+	width: 230px; height: 169px;
+}
+div#shop div.shop_Box div.title_contents div.title {
+	float: left;
+	margin-top: 17px;
+	margin-left: 14px;	
+}
+div#shop div.shop_Box:nth-child(4) div.title_contents div.title,
+div#shop div.shop_Box:nth-child(8) div.title_contents div.title {
+	margin-left: 15px;
+}
+div#shop div.shop_Box div.title_contents div.title ul li {
+	float: left;	
+}
+div#shop div.shop_Box div.title_contents div.title ul li:nth-child(2) {
+	margin-left: 12px;	
+}
+div#shop div.shop_Box:nth-of-type(1) div.title_contents div.title ul li:nth-child(2),
+div#shop div.shop_Box:nth-of-type(2) div.title_contents div.title ul li:nth-child(2) {
+	margin-left: 8px;	
+}
+div#shop div.shop_Box div.title_contents P {
+	clear: both;
+	float: left;
+	margin-top: 9px;
+	margin-left: 14px;	
+}
+div#shop div.shop_Box div.title_contents P:nth-of-type(2) {
+	margin-top: 14px;	
+}
+div#shop div.shop_Box div.title_contents div.price {
+	clear: both;
+	float: left;
+	width: 217px;
+	margin-top: 16px;
+	margin-left: 14px;
+}
+div#shop div.shop_Box:nth-child(1) div.title_contents div.price,
+div#shop div.shop_Box:nth-child(1) div.title_contents div.price {
+	margin-left: 13px;
+}
+div#shop div.shop_Box div.title_contents div.price ul li {
+	float: left;
+	margin-top: 5px;
+}
+div#shop div.shop_Box div.title_contents div.price ul li:nth-child(1) {
+	margin-right: 7px;
+}
+div#shop div.shop_Box div.title_contents div.price ul li:nth-child(3) {
+	float: right;
+	margin-top: 0;
+	margin-right: 15px;
+}
+
+/* --------- pagination --------- */
+div#pagination {
+	width: 	956px; height: 38px;
+	margin-top: 42px;
+	margin-left: 5px;
+	background: #fff;
+	box-shadow: 0 0 1px 1px #e0e0e0;
+}
+div#pagination ul li {
+	float: left;
+	margin-top: 14px;
+	margin-left: 12px;
+	cursor: pointer;
+}
+div#pagination ul li:nth-child(1) {
+	margin-left: 19px;	
+}
+div#pagination ul li:nth-child(2) {
+	margin-left: 14px;	
+}
+div#pagination ul li:nth-child(7) {
+	margin-top: 16px;
+	margin-left: 13px;	
+}
+
+/* --------- footer --------- */
+div#footer {
+	width: 100%; height: auto;
+	margin-top: 57px;
+	position: relative;
+}
+@keyframes rotate{
+	0% { transform: rotate(0); }
+	100% { transform: rotate(-180deg); }	
+}
+@keyframes re{
+	0% { transform: rotate(-180deg); }
+	100% { transform: rotate(0deg); }	
+}
+div#footer > img {
+	position: absolute;
+	top: -12px; right: 32px;
+	z-index: 99;
+	cursor: pointer;
+}
+
+	/* ---- line ---- */
+div#footer div#line {
+	width: 100%; height: 5px;
+	background: #000;
+}
+
+	/* ---- footer_Contents ---- */
+div#footer div#footer_Contents {
+	width: 100%; height: 255px;
+	background: no-repeat url(../img/bg-footer.png);
+	background-size: cover;
+	bakcground-position: center;
+}
+div#footer div#footer_Contents div.wrap div.footer_Box {
+	float: left;
+	width: 241px; height: 255px;
+}
+
+	/* ---- footer_Sort ---- */
+div#footer div#footer_Contents div.wrap div.footer_Box div.footer_Sort {
+	margin-top: 29px;
+}
+div#footer div#footer_Contents div.wrap div.footer_Box:nth-child(1) div.footer_Sort:nth-of-type(1) {
+	margin-left: 2px;
+}
+div#footer div#footer_Contents div.wrap div.footer_Box:nth-child(1) div.footer_Sort:nth-of-type(2) {
+	margin-top: 23px;
+	margin-left: 1px;
+}
+div#footer div#footer_Contents div.wrap div.footer_Box:nth-child(2) div.footer_Sort {
+	margin-left: 14px;
+}
+div#footer div#footer_Contents div.wrap div.footer_Box:nth-child(3) div.footer_Sort {
+	margin-left: 25px;
+}
+div#footer div#footer_Contents div.wrap div.footer_Box:nth-child(4) div.footer_Sort {
+	margin-left: 24px;	
+}
+div#footer div#footer_Contents div.wrap div.footer_Box:nth-child(4) div.footer_Sort:nth-of-type(3) {
+	margin-top: 13px;
+	margin-left: 26px;
+}
+
+		/* ---- footer_Box1 ---- */
+div#footer div#footer_Contents div.wrap div.footer_Box:nth-child(1) div.footer_Sort p {
+	margin-top: 20px;
+}
+div#footer div#footer_Contents div.wrap div.footer_Box:nth-child(1) div.footer_Sort:nth-of-type(2) div#footer_Social ul li {
+	float: left;
+	margin-top: 17px;
+	margin-left: 5px;
+}
+div#footer div#footer_Contents div.wrap div.footer_Box:nth-child(1) div.footer_Sort:nth-of-type(2) div#footer_Social ul li:nth-child(1) {
+	margin-left: 0;
+}
+div#footer div#footer_Contents div.wrap div.footer_Box:nth-child(1) div.footer_Sort:nth-of-type(2) div#footer_Social ul li:nth-child(3),
+div#footer div#footer_Contents div.wrap div.footer_Box:nth-child(1) div.footer_Sort:nth-of-type(2) div#footer_Social ul li:nth-child(4)  {
+	margin-left: 4px;
+}
+ 
+		/* ---- footer_Box2 ---- */
+div#footer div#footer_Contents div.wrap div.footer_Box:nth-child(2) div#archives {
+	float: left;
+	margin-top: 20px;
+	margin-left: 2px;	
+}
+div#footer div#footer_Contents div.wrap div.footer_Box:nth-child(2) div#archives ul li {
+	width: 197px; height: 26px;
+	border-bottom: 1px dotted #acaba9;
+	margin-top: 14px;
+}
+div#footer div#footer_Contents div.wrap div.footer_Box:nth-child(2) div#archives ul li:nth-child(1) {
+	height: 25px;	
+	margin-top: 0px;
+}
+
+		/* ---- footer_Box3 ---- */
+div#footer div#footer_Contents div.wrap div.footer_Box:nth-child(3) div#album {
+	float: left;
+	margin-top: 13px;
+	margin-left: 1px;	
+}
+div#footer div#footer_Contents div.wrap div.footer_Box:nth-child(3) div#album div.album_Box {
+	float: left;
+}
+div#footer div#footer_Contents div.wrap div.footer_Box:nth-child(3) div#album div.album_Box:nth-child(2) {
+	margin-top: 6px;	
+}
+div#footer div#footer_Contents div.wrap div.footer_Box:nth-child(3) div#album div.album_Box div {
+	float: left;	
+}
+div#footer div#footer_Contents div.wrap div.footer_Box:nth-child(3) div#album div.album_Box div.album_Img {
+	width: 100px; height: 80px;
+	box-sizing: border-box;
+	border: 5px solid #28292a;
+}
+div#footer div#footer_Contents div.wrap div.footer_Box:nth-child(3) div#album div.album_Box div.album_contents {
+	width: 110px; height: 80px;
+}
+div#footer div#footer_Contents div.wrap div.footer_Box:nth-child(3) div#album div.album_Box div.album_contents ul li {
+	margin-top: 9px;
+	margin-left: 9px;
+}
+div#footer div#footer_Contents div.wrap div.footer_Box:nth-child(3) div#album div.album_Box div.album_contents ul li:nth-child(2) {
+	margin-top: 10px;
+}
+
+div#footer div#footer_Contents div.wrap div.footer_Box:nth-child(3) div#album div.album_Box:hover div.album_contents ul li img {
+	box-sizing: border-box;
+	padding-bottom: 5px;
+	border-bottom: 1px solid gray;
+}
+
+		/* ---- footer_Box4 ---- */
+div#footer div#footer_Contents div.wrap div.footer_Box:nth-child(4) div#search {
+	width: 214px; height: 36px;
+	background: rgba(0,0,0,0.28);
+	box-shadow: 0 0 1px 1px #333434;
+	margin-top: 19px;
+	margin-right: 1px;
+}
+div#footer div#footer_Contents div.wrap div.footer_Box:nth-child(4) div#search input {
+	width: 214px; height: 36px;
+	font-size: 24px;
+	color: #fff;
+	text-indent: 5px;
+	background: no-repeat transparent url("../img/search.png");
+	background-position: 16px 12px;
+}
+div#footer div#footer_Contents div.wrap div.footer_Box:nth-child(4) div.footer_Sort:nth-child(2) div {
+	margin-top: 18px;	
+}
+div#footer div#footer_Contents div.wrap div.footer_Box:nth-child(4) div.footer_Sort:nth-child(2) div ul li {
+	float: left;
+	margin-right: 4px;
+	margin-bottom: 4px;	
+}
+
+/* --------- lowerFooter --------- */
+div#lowerFooter {
+	width: 100%; height: 34px;
+	background: #1b1b1b;
+	border-top: 1px solid #000;
+}
+
+	/* ---- link ---- */
+div#lowerFooter div#link {
+	float: left;
+	margin-top: 12px;
+	margin-left: 1px;
+}
+div#lowerFooter div#link ul li {
+	float: left;
+	margin-right: 13px;
+}
+div#lowerFooter div#link ul li:nth-child(1) {
+	margin-right: 16px;	
+}
+
+	/* ---- copyright ---- */
+div#lowerFooter div#copyright {
+	float: right;
+	margin-top: 12px;
+	margin-right: 1px;
+}
